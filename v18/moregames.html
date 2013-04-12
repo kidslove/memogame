@@ -1,0 +1,62 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	<title>More Apps Page for Memo Game</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<style>
+		body {
+			margin: 0;
+			font-size: 26px;
+			font-family: Helvetica;
+			
+		}
+		#content {
+		margin: 5px 5px 5px 5px;
+		padding: 2px 2px 2px 2px;
+		
+		}
+		
+		.fixed-width {
+			font-family: Courier;
+		}
+	</style>
+
+<script type="text/javascript">
+	var imageURLs = [ 
+			'<a href="http://itunes.apple.com/app/id517701766"><img src="DragonMaze_Big.jpg" width="100%"></a>',
+			'<a href="http://itunes.apple.com/app/id570544273"><img src="Banner_makeUp.jpg" width="100%"></a>',
+			'<a href="http://itunes.apple.com/app/id536933223"><img src="Match_it_big.jpg" width="100%"></a>',
+		];
+	function getURL() {
+		var randomIndex = Math.floor(Math.random() * imageURLs.length);
+		console.log('imageURLs.length: ' + imageURLs.length);
+		console.log('randomIndex: ' + randomIndex);
+		return imageURLs[randomIndex];
+	}
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37093446-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="content">
+<center>
+
+<script type="text/javascript"> document.write(getURL()) </script>
+
+<p align="center" style="font-size:26px"><b>We wish you a lot of fun with our games!</b></p>
+<p align="center" style="font-size:18px">To get the latest News and Updates please Like us on Facebook!</p>
+<p align="center" style="font-size:18px"><a href="http://www.facebook.com/kidsloveit">http://www.facebook.com/kidsloveit</a> </p>
+<p align="center" style="font-size:6px">v18 remote</p>
+
+</center>
+</div>
+</body>
+</html>
